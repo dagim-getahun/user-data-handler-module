@@ -3,7 +3,7 @@ import {
   StudentProgressType,
 } from "../../model/StudentProgress/Types";
 import StudentProgressModel from "../../model/StudentProgress";
-import { MongooseResponseType } from "../../model/StudentProgress/Types";
+import { MongooseResponseType } from "../../model/CommonTypes";
 import mongoose from "mongoose";
 import { ValueOf } from "../../utils/CommonTypes";
 

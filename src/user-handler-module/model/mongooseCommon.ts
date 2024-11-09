@@ -1,10 +1,6 @@
 import mongoose, { Model, modelNames } from "mongoose";
-import {
-  MongooseResponseType,
-  ProgressType,
-  StudentProgressType,
-} from "./StudentProgress/Types";
-
+import { ProgressType, StudentProgressType } from "./StudentProgress/Types";
+import { MongooseResponseType } from "./CommonTypes";
 /**
  * Common Mongoose Methods:
  * - CreateData: Creates a new document
