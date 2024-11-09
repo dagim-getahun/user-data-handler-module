@@ -1,5 +1,5 @@
 const express = require("express");
-import { UserDataHandlerController } from "../controllers/StudentDataControllers";
+import { UserDataHandlerController } from "../controllers/StudentsProgressControllers";
 
 const DataController = new UserDataHandlerController();
 const UserDataModuleRouter = express.Router();

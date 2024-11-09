@@ -3,7 +3,7 @@ const expressMain = require("express");
 const app = expressMain();
 require("dotenv").config();
 
-import { UserDataHandlerController } from "./user-handler-module/controllers/StudentDataControllers";
+import { UserDataHandlerController } from "./user-handler-module/controllers/StudentsProgressControllers";
 import { QuestionsHistoryController } from "./user-handler-module/controllers/QuestionHistoryControllers";
 import QuestionsControllers from "./user-handler-module/controllers/QuestionsControllers";
 const DataControll = new QuestionsHistoryController();
